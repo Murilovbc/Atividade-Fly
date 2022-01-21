@@ -1,0 +1,111 @@
+:root{
+    --vermelho: #ff0000;
+    --preta: #1a1818;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #e0dfdf;
+    font-family:'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    border: 1px;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: url(../img/Group_50.png) no-repeat center center;
+    background-color: rgb(13, 146, 47);
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 40px;
+}
+
+header nav a:hover{
+    color: white;
+}
+
+/*corpo main*/
+.bloco-principal{
+    font-size: 15px;
+    background: url(../img/kafteds.jpg) no-repeat center center;
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bloco-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: top;
+}
+
+.bloco-principal .titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bloco-principal .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.bloco-principal .botao i{
+    margin-right: 8px;
+}
+
+.bloco-principal .botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.bloco-principal .container{
+    width: 90%;
+    margin-left: 40px;
+}
+
+
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.rodape{
+    background: rgb(52, 52, 53);
+    height: 270px;
+}
+
+.rodape .contato{
+    margin-left: 40px;
+}
+
+.cor{
+    color: rgb(0, 0, 0);
+}
